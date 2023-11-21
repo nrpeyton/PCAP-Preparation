@@ -7,6 +7,6 @@ WARNING ! This is dangerous! (bad practice) it enters names into local symbol ta
 """
 from mod import *
 
-# print(f'\naRegularString = {aRegularString}')
+print(f'\naRegularString = {aRegularString}')
 
-# print(f'\naRegularMethod() = {aRegularMethod("test")}')
+print(f'\naRegularMethod() = {aRegularMethod("test")}')
