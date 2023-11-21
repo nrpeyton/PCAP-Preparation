@@ -13,9 +13,9 @@ for i in range(3):
 
 #a regular while loop:
 while True:
-    aRegularList.len() <= 3
+    len(aRegularList) <= 3
     print("This is gonna print until the break conditional is met!")
-    aRegularList.len() - 1
+    len(aRegularList) - 1
     break
 
 def aRegularMethod(arg):
