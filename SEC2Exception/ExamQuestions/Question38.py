@@ -9,13 +9,39 @@ try:
 except:
     pass
 """
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#No output
+#Add () on Line 2(11) to fix the syntax error
+#SyntaxError:invalid syntax
+#NameError: name 'UndefinedException' is not defined
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 try:
     raise UndefinedException            #1st - RE: UndefinedException is not part of the Exception Hiearchy! the try
                                         # will look for the exception "class" defined, moves to except clause
 except:                                 #2nd - NOTE! LEGIT SYNTAX to not have except clause by ITSELF!; executes...
 pass                                    #3rd - ...performs pass boolean, thus not output or details etc. 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-#No output                                              #CORRECT!!
-#Add () on Line 2(11) to fix the syntax error           #WRONG!
-#SyntaxError:invalid syntax                             #WRONG!
-#NameError: name 'UndefinedException' is not defined    #WRONG!

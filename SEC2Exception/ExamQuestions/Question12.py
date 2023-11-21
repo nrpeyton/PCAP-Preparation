@@ -12,8 +12,8 @@ except Exception as exception:
 try:
     raise Exception('spam', 'eggs')
 except Exception as exception:
-    print(exception.args)              #CORRECT! - prints ('spam', 'eggs') using ___str__()
-    print(exception)                   #CORRECT! - prints ('spam', 'eggs') using .args
-    # print(exception.params)          #WRONG
-    # print(exception.iterable[:])     #WRONG
+    # print(exception.args)
+    # print(exception)
+    # print(exception.params)
+    # print(exception.iterable[:])
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

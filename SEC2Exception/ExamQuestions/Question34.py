@@ -15,6 +15,36 @@ else:
 finally:
     print("5")
 """
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#1245
+#135
+#145
+#Namerror: name 'BaseException" is not defined
+#1235
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 try:
     print("1", end='')  #1st: prints ", "try" clause continues...
     raise Exception     #raise "Exception" object occurs...
@@ -27,9 +57,3 @@ finally:                #3rd...RE!: if finally is presents, it specifies a "CLEA
     print("5")          #; thus if an exception occurs in any of the clauses and is not
                         # handled, the exception is temporarily saved and then the finally
                         #clase is executed!
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-#1245                                           #WRONG!
-#135                                            #CORRECT!!
-#145                                            #WRONG!
-#Namerror: name 'BaseException" is not defined  #WRONG!
-#1235                                           #WRONG!

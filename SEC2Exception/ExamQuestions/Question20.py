@@ -14,12 +14,12 @@ except:
 import sys
 
 try:
-    f = open('spam.txt')    #1st exception raised!...
+    f = open('spam.txt')
     s = f.readline()
-except:                     #2nd ...execute exception...
-    raise                   #3rd ...raise FileNotFound
+except:
+    raise
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-#FileNotFoundError: [Errno 2] No such file or directory: 'spam.txt'  #CORRECT!!
-#the script will run but will not print anything                     #WRONG!
-#"None" will be printed                                              #WRONG!
-#Compile time errors                                                 #WRONG!
+#FileNotFoundError: [Errno 2] No such file or directory: 'spam.txt'
+#the script will run but will not print anything
+#"None" will be printed
+#Compile time errors

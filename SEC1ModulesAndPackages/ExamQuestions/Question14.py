@@ -4,3 +4,5 @@ import random
 
 print('\n')
 print(random.sample(['spam', 'ham', 'eggs'], k=1))
+print()
+print(random.choice(['spam', 'ham', 'eggs']))

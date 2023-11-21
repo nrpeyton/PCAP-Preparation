@@ -14,14 +14,7 @@ except Exception:
 except:
     print("Eggs")
 """
-try:
-    raise Exception    # 1st raise Exception occurs...
-except BaseException:  # 2nd (lowest) BaseException matches exception...
-    print("Spam")      # 3rd print Spam; exit try statement = CORRECT ANSWER!!!
-except Exception:
-    print("Ham")       # WRONG! NOTE: observe the (highest) Exception class is considered last!
-except:
-    print("Eggs")      # WRONG!
 
-# Syntax Error         # WRONG!
+
+
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

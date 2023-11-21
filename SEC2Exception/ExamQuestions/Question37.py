@@ -13,6 +13,37 @@ except UndefinedException:
 except:
     pass
 """
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#NameError
+#UndefineException
+#SyntaxError: invalid syntax
+#No output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 try:
     raise UndefinedException        #1st - try clause raises "UndefinedException"...
 except NameError:                   #2nd - ...except clause occurs because of raise in "try" clause
@@ -21,8 +52,3 @@ except UndefinedException:          #NOTE: this except clause does not occur; th
 print('UndefinedException')         # calling; UndefinedException is not part of the Exception Hiearchy!
 except:
     pass
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-#NameError                      #CORRECT!!
-#UndefineException              #WRONG!
-#SyntaxError: invalid syntax    #WRONG!
-#No output                      #WRONG!

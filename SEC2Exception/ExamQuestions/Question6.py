@@ -14,12 +14,12 @@ else:
     print('ELSE')
 """
 try:
-    pass                      #CORRECT ANSWER!
-    # insert "blank"          #WRONG! BUG: IndentationError: expected an indented blockchoice 2
-    # raise TypeError         #WRONG! Output: "TypeError"
-    # raise ZeroDivisionError #WRONG! Output: "Zero Division Error"
-    # raise                   #WRONG! BUG: No exception to reraise
-    # raise Exception         #WRONG! Raises "Exception"
+    # pass
+    # insert "blank"
+    # raise TypeError
+    # raise ZeroDivisionError
+    # raise
+    # raise Exception
 except ZeroDivisionError:
     print('ZeroDivisionError')
 except TypeError:
