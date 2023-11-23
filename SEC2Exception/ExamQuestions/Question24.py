@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 2: Exam Block #2 Exceptions  - - - - - - -
 """
 Question 24: Incorrect
@@ -25,3 +25,4 @@ f()
 #try except finally <AssertionError logs>
 #try except finally <ArithmeticError logs> <AssertionError logs>
 
+# Answer: 3; using 'return' without a suffix returns 'None'.

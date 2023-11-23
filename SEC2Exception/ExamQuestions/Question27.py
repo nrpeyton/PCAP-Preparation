@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 2: Exam Block #2 Exceptions  - - - - - - -
 """
 Question 27:
@@ -23,3 +23,5 @@ else:
 #Goodbye
 #Unhandled Exception
 #Stop
+
+# Answer:  3

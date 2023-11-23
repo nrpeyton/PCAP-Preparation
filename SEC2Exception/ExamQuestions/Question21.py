@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 2: Exam Block #2 Exceptions  - - - - - - -
 """
 Question 21: Incorrect
@@ -16,3 +16,5 @@ except:
 #NameError:name 'UndefinedException' is not defined
 #SyntaxError: invalid syntax
 #No output
+
+# Answer: 4. NameError is caught and passed.

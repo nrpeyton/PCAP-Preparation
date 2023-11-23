@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 2: Exam Block #2 Exceptions  - - - - - - -
 
 """
@@ -9,3 +9,5 @@ try:
 except Exception as e:
     print(len(e.args))
 """
+
+# Answer: 3

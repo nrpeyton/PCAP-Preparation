@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 2: Exam Block #2 Exceptions  - - - - - - -
 """
 Question 37: Incorrect
@@ -20,6 +20,7 @@ except:
 #SyntaxError: invalid syntax
 #No output
 
+# Answer: NameError
 
 
 
@@ -41,9 +42,7 @@ except:
 
 
 
-
-
-
+'''
 try:
     raise UndefinedException        #1st - try clause raises "UndefinedException"...
 except NameError:                   #2nd - ...except clause occurs because of raise in "try" clause
@@ -52,3 +51,4 @@ except UndefinedException:          #NOTE: this except clause does not occur; th
 print('UndefinedException')         # calling; UndefinedException is not part of the Exception Hiearchy!
 except:
     pass
+'''

@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 2: Exam Block #2 Exceptions  - - - - - - -
 """
 Question 22: Incorrect
@@ -17,3 +17,6 @@ except:
 #The script will run but will not print anything
 #compile time error
 #an exception occurred will be printed
+
+# Answer: Compile time error; any indentation errors (even at a script's end) prevents script execution.
+

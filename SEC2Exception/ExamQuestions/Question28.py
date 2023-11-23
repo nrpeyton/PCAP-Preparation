@@ -1,4 +1,4 @@
-        # - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+        # - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 2: Exam Block #2 Exceptions  - - - - - - -
 """
 Question 28: Incorrect
@@ -15,3 +15,5 @@ except IOError as e:
 #No output
 #RuntimeError
 #IOError
+
+# Answer: 3

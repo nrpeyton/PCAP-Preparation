@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 2: Exam Block #2 Exceptions  - - - - - - -
 
 """
@@ -22,3 +22,6 @@ for cls in [Spam, Ham]:
 #Spam Spam
 #Spam Ham Spam Ham
 #Invalid Syntax
+
+# Answer: Spam Spam
+

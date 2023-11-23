@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 2: Exam Block #2 Exceptions  - - - - - - -
 """
 Question 38: Incorrect
@@ -16,6 +16,7 @@ except:
 #SyntaxError:invalid syntax
 #NameError: name 'UndefinedException' is not defined
 
+# Answer: 1
 
 
 
@@ -32,16 +33,10 @@ except:
 
 
 
-
-
-
-
-
-
-
-
+'''
 try:
     raise UndefinedException            #1st - RE: UndefinedException is not part of the Exception Hiearchy! the try
                                         # will look for the exception "class" defined, moves to except clause
 except:                                 #2nd - NOTE! LEGIT SYNTAX to not have except clause by ITSELF!; executes...
 pass                                    #3rd - ...performs pass boolean, thus not output or details etc. 
+'''

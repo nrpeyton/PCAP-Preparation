@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 2: Exam Block #2 Exceptions  - - - - - - -
 """
 Question 34: Incorrect
@@ -16,6 +16,9 @@ finally:
     print("5")
 """
 
+
+
+
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 #1245
 #135
@@ -23,12 +26,7 @@ finally:
 #Namerror: name 'BaseException" is not defined
 #1235
 
-
-
-
-
-
-
+# Answer: 2
 
 
 

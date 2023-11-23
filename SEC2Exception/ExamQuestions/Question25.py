@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Incorrect
 # - - - - - - - Practice Test 2: Exam Block #2 Exceptions  - - - - - - -
 """
 Question 25: Incorrect
@@ -21,3 +21,5 @@ f()
 #No Output
 #AssertionError
 #Attribute Error
+
+# Answer: ArithmeticError, AssertionError and AttributeError will all be displayed in the console one after the other.

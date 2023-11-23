@@ -1,7 +1,7 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Incorrect
 # - - - - - - - Practice Test 2: Exam Block #2 Exceptions  - - - - - - -
 
-"""
+""" 
 What is the output of the following code?
 
 for x in range(1):
@@ -20,3 +20,5 @@ for x in range(1):
 # 0
 # 1
 # No output
+
+# Answer: No output
