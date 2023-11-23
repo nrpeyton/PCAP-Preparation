@@ -15,17 +15,9 @@ if 'eggs' in f:
 else:
     print('Eggs not found')
 """
-#spam.txt
-#   spam ham eggs
 
-#spam.py
-f = open('//Users/bryancutkelvin/PycharmProjects/PCAPprep/spam.txt', 'r') #open(...) returns file
-if 'eggs' in f:                                                           #object NOT file content!
-    print('Eggs found')
-else:
-    print('Eggs not found')
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-#SyntaxError: invalid syntax                            #WRONG!
-#Eggs not found                                         #CORRECT!!
-#Eggs found                                             #WRONG!
-#TypeError: argument type TextOfWrapper not iterable    #WRONG!
+#SyntaxError: invalid syntax
+#Eggs not found
+#Eggs found
+#TypeError: argument type TextOfWrapper not iterable
