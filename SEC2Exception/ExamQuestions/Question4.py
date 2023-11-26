@@ -4,23 +4,23 @@
 Question 4:
 Select which option will call the __init__ method of Exception based on the code below.
 
-class SpamException(Exception):
+class NewException(Exception):
   def __init__(self, message):
     <<< INSERT CODE HERE >>>
     self.message = message
-raise SpamException("Spam")W
+raise NewException("Spam")W
 """
 
 
 
-class SpamException(Exception):
+class NewException(Exception):
     def __init__(self, message):
         # Exception.__init__(self, message)
-        # super(SpamException, self).__init__(message)
+        # super(NewException, self).__init__(message)
         # super.__init__message()
         # super().__init__message()
         self.message = message
-raise SpamException("Spam")
+raise NewException("Spam")
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Answer: 1, 2
@@ -37,14 +37,23 @@ Purpose: Bypasses Method Resolution Order (MRO) in multiple inheritance.
 Example:
 
 
-class Parent:
-    def __init__(self, value):
-        self.value = value
+class ParentA:
+    def show(self):
+        print("ParentA show")
 
-class Child(Parent):
-    def __init__(self, value):
-        super(Child, self).__init__(value)
-Custom Exception Initialisation:
+class ParentB(ParentA):
+    def show(self):
+        print("ParentB show")
+
+class Child(ParentB):
+    def show(self):
+        super(ParentB, self).show()  # Calls ParentA's show, since ParentA is the superclass of ParentB
+
+# Usage
+child = Child()
+child.show()  # This will call ParentA's show()
+
+
 
 
 2.

@@ -1,13 +1,14 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Incorrect
 # - - - - - - - Practice Test 1: 3 Strings - - - - - - -
 """
 Question 27: Incorrect
-Which option(s) is True about isalnum()?    #EX. str.isalnum; returns True is all strings are
-                                            #   alphanumeric and there is at least one character
+Which option(s) is True about isalnum()?
 """
 
-#Its not a valid function                                   #WRONG
-#It returns True only if letter and numbers ar both present #WRONG
-#It returns True if all characters are alphabetic           #CORRECT!!
-#It returns True if all characters are numeric              #CORRECT!!
-#It returns True is the string is empty                     #WRONG
+#1. Its not a valid function
+#2. It returns True only if letter and numbers ar both present
+#3. It returns True if all characters are alphabetic
+#4. It returns True if all characters are numeric
+#5. It returns True is the string is empty
+
+# Answer: 3, 4

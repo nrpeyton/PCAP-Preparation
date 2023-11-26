@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Incorrect
 # - - - - - - - Practice Test 2: 3 Strings - - - - - - -
 """
 Question 12: Incorrect
@@ -9,19 +9,10 @@ def reverse(word):
 print(sorted(['banana', 'pear', 'grapes', 'apple'], key=reverse))
 """
 
-def reverse(word):
-    return word[::-1]   #RE: [::-1] reverses a list
-
-print("\n1st, sorted(['banana', 'pear', 'grapes', 'apple']): ", sorted(['banana', 'pear', 'grapes', 'apple'] ) )
-
-print("\n2nd, let argument, key = reverse()...")
-print("reverse(['banana', 'pear', 'grapes', 'apple']):\t", reverse(['banana', 'pear', 'grapes', 'apple']))
-
-print("\n3rd, finally using 'key=':\t\t\t\t\t\t", sorted(['banana', 'pear', 'grapes', 'apple'], key=reverse))
-#['banana', 'apple', 'pear', 'grapes']
-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-#['pear', 'grapes', 'banana', 'apple']                      #WRONG!
-#['grapes', 'pear', 'apple', 'banana']                      #WRONG!
-#['banana', 'apple', 'pear', 'grapes']                      #CORRECT!!
-#TypeError: 'key' is an invalid keyword argument for sortd()#WRONG!
+#['pear', 'grapes', 'banana', 'apple']
+#['grapes', 'pear', 'apple', 'banana']
+#['banana', 'apple', 'pear', 'grapes']
+#TypeError: 'key' is an invalid keyword argument for sortd()
+
+# Answer: 3
