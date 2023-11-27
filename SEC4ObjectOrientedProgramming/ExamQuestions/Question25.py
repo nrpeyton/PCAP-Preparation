@@ -12,11 +12,9 @@ class Person:
 
 p = Person()
 
-#i)print("p.__dict__: ", p.__dict__)        #WRONG; returns and empty dictionary {}
-#ii)(print("vars(p): ", vars(p))            #WRONG; returns and empty dictionary {}
-#iii)print("vars(Person): ", vars(Person) ) #CORRECT!!; returns the dictionary as:
-#    {'__module__': '__main__', 'name': 'John', 'age': 36, 'country': 'USA', '__dict__': <attribute '__dict__' of
-#    'Person' objects>, '__weakref__': <attribute '__weakref__' of 'Person' objects>, '__doc__': None}
-#print("Person.__dict__:", Person.__dict__)  #CORRECT; returns the dictionary as:
-#   {'__module__': '__main__', 'name': 'John', 'age': 36, 'country': 'USA', '__dict__': <attribute '__dict__' of
-#   'Person' objects>, '__weakref__': <attribute '__weakref__' of 'Person' objects>, '__doc__': None}
+#i) print("p.__dict__: ", p.__dict__)
+#ii) (print("vars(p): ", vars(p))
+#iii) print("vars(Person): ", vars(Person) )
+#iv) print("Person.__dict__:", Person.__dict__)
+
+# Answer: 

@@ -26,3 +26,6 @@ print(d.bar, d.FOO, e.bar, e.FOO)
 #ii)['spam']300['ham']300
 #iii)['spam']100['ham']200
 #iv)['spam']300['ham']200
+
+
+# Answer: 

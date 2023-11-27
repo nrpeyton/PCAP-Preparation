@@ -17,4 +17,23 @@ except:
 #SyntaxError: invalid syntax
 #No output
 
+# Answer (26-11): 4 - - - - - - - Correct
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Answer: 4. NameError is caught and passed.

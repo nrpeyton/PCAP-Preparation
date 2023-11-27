@@ -14,12 +14,10 @@ s = Spam(100)                       #5
 
 print(s.ham, s.__ham)               #6
 
-#i)Error in Line 6      #CORRECT!!!; *RE: variables prefixed with "__" are PRIVATE variables and CANNOT  be accessed
-                        # outside the class!
-#ii)Error in Line 4     #WRONG
-#iii)Error in Line 5    #WRONG
-#iv)100 101             #WRONG
-#v)Error in Line 3      #WRONG
+#i)Error in Line 6
+#ii)Error in Line 4
+#iii)Error in Line 5
+#iv)100 101
+#v)Error in Line 3
 
-#*NOTE:
-#   print(s.ham)    #100
+# Answer: 

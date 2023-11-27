@@ -23,5 +23,17 @@ for cls in [Spam, Ham]:
 #Spam Ham Spam Ham
 #Invalid Syntax
 
-# Answer: Spam Spam
+# Answer (26-11): 2 - - - - - - - Correct
+
+
+
+
+
+
+
+
+
+
+
+# Answer: 2
 

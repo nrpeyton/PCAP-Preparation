@@ -20,7 +20,9 @@ class Foo(Bar):
 f = Foo()
 print(f.x, f.y)
 
-# i)super(Spam, self).__init__()                                            #CORRECT!!
-# ii)None. All results in AttributeError:'Foo' object has no attribute 'x'  #WRONG!
-# iii)Blank. code will work without replacement         `                   #WRONG!
-# iv)Bar.__init__ (self)                                                    #CORRECT!!
+# i)super(Spam, self).__init__()
+# ii)None. All results in AttributeError:'Foo' object has no attribute 'x'
+# iii)Blank. code will work without replacement
+# iv)Bar.__init__ (self)
+
+# Answer: 

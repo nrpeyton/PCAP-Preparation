@@ -7,13 +7,15 @@ What is the output of the following code?
 def foo(self, p):
     print('Hello', p)
 
-class Spam:     #observe class definition CAN occur below definition of a method, even one it will use!
-    bar = foo   #*NOTE! "INSTANCE "VARIABLE NAME" ASSIGNMENT"!
+class Spam:
+    bar = foo
 
 s = Spam()
 s.bar('World')  #which is really s.foo(...) ...
 
-#i)SyntaxError: invalid syntax              #WRONG
-#ii)NameError: name 'foo' is not defined    #WRONG
-#iii)No output                              #WRONG
-#iv)Hello World                             #CORRECT!!
+#i)SyntaxError: invalid syntax
+#ii)NameError: name 'foo' is not defined
+#iii)No output
+#iv)Hello World
+
+# Answer: 

@@ -21,6 +21,29 @@ s = Spam()
 #iii)No output  #WRONG!
 #iv)Ham Eggs    #WRONG!
 
+# Answer: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #*RE: MRO (Method Resolution Order) -
 #   -Class will execute the FIRST __init__() it finds in the class
 #ex

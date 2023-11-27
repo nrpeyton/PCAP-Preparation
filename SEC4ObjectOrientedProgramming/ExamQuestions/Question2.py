@@ -15,12 +15,33 @@ class Spam:
 s = Spam()
 #<<< INSERT CODE HERE >>>
 
-#i)print(Spam.__name__)            #CORRECT!! "Spam"
-#ii)print(s.ham.__name__)          #WRONG! 'str' object has no attribute '__name__'
-#iii)print(s._Spam__eggs.__name__) #CORRECT!! "__eggs"
-#iv)print(s.eggs.__name__)         #CORRECT!! "__ggs"
-#v)print(s._Spam__ham.__name__)    #WRONG! AttributeError: 'str' object has no attribute '__name__'
-#vi)print(s.__name__)              #WRONG! AttributeError: 'Spam' object has no attribute '__name__'
+#i)print(Spam.__name__)
+#ii)print(s.ham.__name__)
+#iii)print(s._Spam__eggs.__name__)
+#iv)print(s.eggs.__name__)
+#v)print(s._Spam__ham.__name__)
+#vi)print(s.__name__)
+
+# Answer: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 """
 *NOTE:

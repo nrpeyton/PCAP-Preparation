@@ -16,4 +16,21 @@ except IOError as e:
 #RuntimeError
 #IOError
 
+# Answer (26-11): 3 - - - - - - - Correct
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Answer: 3

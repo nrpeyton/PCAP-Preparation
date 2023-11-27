@@ -6,20 +6,40 @@ What is the output of the following code?
 """
 
 def spam():
-    h = Ham()       #compile time error: Unresolved reference 'Ham'
+    h = Ham()
     h.eggs()
 
-    class Ham:      #*RE: A class CAN be declared inside function definitions!!
+    class Ham:
         def eggs(self):
             print('Hello World')
     return
 
 spam()
 
-#i)SyntaxError: invalid syntax                                             #WRONG!
-#ii)Hello World                                                            #WRONG!
-#iii)UnboundLocalError: local variable 'Ham' referenced before assignment  #CORRECT!!!
-#iv)No Output                                                              #WRONG!
+#i)SyntaxError: invalid syntax
+#ii)Hello World
+#iii)UnboundLocalError: local variable 'Ham' referenced before assignment
+#iv)No Output
+
+# Answer: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 """
 #*RE: this is legit!

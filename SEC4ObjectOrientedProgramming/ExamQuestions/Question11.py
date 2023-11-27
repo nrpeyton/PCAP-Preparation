@@ -16,11 +16,36 @@ class Spam(Ham):
 s = Spam()
 
 
-#i)Ham Eggs                                                             #WRONG!
-#ii)Type Error: __init__() takes 1 positional argument but 0 were given #WRONG!
-#iii)Eggs                                                               #WRONG!
-#iv)No output                                                           #WRONG!
-#v)Ham                                                                  #CORRECT!!
+#i)Ham Eggs
+#ii)Type Error: __init__() takes 1 positional argument but 0 were given
+#iii)Eggs
+#iv)No output
+#v)Ham
+
+# Answer: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #RE:
 #-Method Resolution Order: set of rule that construct linearization of classes

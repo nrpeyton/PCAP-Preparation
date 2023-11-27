@@ -21,10 +21,34 @@ class Ham:
 Ham()
 print("***DEBUG: help(Ham.update), ", help(Ham.update))
 
-# i)TypeError: update() missing 1 required positional argument 'param'      #CORRECT!!
-# ii)Ham.__init()__() Ham.update(param)                                     #WRONG
-# iii)Ham.i__init__() Ham.update()                                          #WRONG
-# iv)syntaxError: invalid syntax                                            #WRONG
+# i)TypeError: update() missing 1 required positional argument 'param'
+# ii)Ham.__init()__() Ham.update(param)
+# iii)Ham.i__init__() Ham.update()
+# iv)syntaxError: invalid syntax
+
+# Answer: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # *NOTE:
 # if there were no compile time errors, observe:

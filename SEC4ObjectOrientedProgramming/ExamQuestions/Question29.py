@@ -22,7 +22,9 @@ a = A()
 o.ham()
 
 
-# i)Replace <CALL spam> with self.spam(self)    #WRONG: Unresolved reference 'self'
-# ii)Replace <CALL ham> with a.ham(a)           #CORRECT!
-# iii)Replace <CALL spam> with self.spam()      #WRONG: Unresolved reference 'self'
-# iv)Replace <CALL ham> with o.ham()            #WRONG: Unresolved reference 'o'
+# i)Replace <CALL spam> with self.spam(self)
+# ii)Replace <CALL ham> with a.ham(a)
+# iii)Replace <CALL spam> with self.spam()
+# iv)Replace <CALL ham> with o.ham()
+
+# Answer: 

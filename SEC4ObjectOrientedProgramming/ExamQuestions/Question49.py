@@ -9,11 +9,13 @@ class Spam:
 
 hasattr(Spam(), 'ham')
 
-#i)SyntaxError: Invalid Syntax                              #WRONG
-#ii)TypeError: hasattr(): attribute must be type            #WRONG
-#iii)False                                                  #CORRECT!!
-#iv)AttributeError: 'Spam' object has no attribute 'ham'    #WRONG
-#v)NameError: name 'hasattr' is not defined                 #WRONG
+#i)SyntaxError: Invalid Syntax
+#ii)TypeError: hasattr(): attribute must be type
+#iii)False
+#iv)AttributeError: 'Spam' object has no attribute 'ham'
+#v)NameError: name 'hasattr' is not defined
+
+# Answer: 
 
 
 

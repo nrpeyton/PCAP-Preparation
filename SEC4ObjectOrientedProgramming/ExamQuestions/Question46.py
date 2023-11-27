@@ -16,7 +16,9 @@ b = Spam(3)
 
 print(a.v, b.v)
 
-#i)TypeError:__init__() missing 1 required positional argument: 'v' #WRONG
-#ii)3 4                                                             #WRONG
-#iii)3 5                                                            #CORRECT!!
-#iv)3 3                                                             #WRONG
+#i)TypeError:__init__() missing 1 required positional argument: 'v'
+#ii)3 4
+#iii)3 5
+#iv)3 3
+
+# Answer: 

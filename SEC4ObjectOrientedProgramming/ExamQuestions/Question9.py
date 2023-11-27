@@ -20,11 +20,39 @@ s = Spam()
 
 #---INSERT CODE HERE---
 
-#i)print("s.__ham: ", s.__ham )                    #WRONG! AttributeError: 'Spam' object has no attribute '__ham'
-#ii)print("s.eggs(): ", s.eggs() )                 #CORRECT!! s.eggs():  100
-#iii)print("s.__eggs(): ", s.__eggs() )            #WRONG! AttributeError: 'Spam' object has no attribute '__eggs'
-#iv)print("s._Spam__ham: ", s._Spam__ham )         #CORRECT!! s._Spam__ham:  0
-#v)print("s._Spam__eggs(): ", s._Spam__eggs() )    #WRONG! AttributeError: 'Spam' object has no attribute '_Spam_eggs'
+#i)print("s.__ham: ", s.__ham )
+#ii)print("s.eggs(): ", s.eggs() )
+#iii)print("s.__eggs(): ", s.__eggs() )
+#iv)print("s._Spam__ham: ", s._Spam__ham )
+#v)print("s._Spam__eggs(): ", s._Spam__eggs() )
+
+# Answer: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #*NOTES:
 #-when an instance variable is declared, the object can be referred to as _ObjectName

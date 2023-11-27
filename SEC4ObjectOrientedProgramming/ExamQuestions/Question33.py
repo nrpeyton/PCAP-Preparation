@@ -18,3 +18,5 @@ print(f1.bar, f2.bar, Foo.bar)
 # ii)spam ham eggs
 # iii)eggs ham eggs
 # iv)AttributeError: type object 'Foo' has no attribute 'bar'
+
+# Answer: 

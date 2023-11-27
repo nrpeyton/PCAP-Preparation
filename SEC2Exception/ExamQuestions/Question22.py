@@ -18,5 +18,28 @@ except:
 #compile time error
 #an exception occurred will be printed
 
+# Answer (26-11): 3 - - - - - - - Correct
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Answer: Compile time error; any indentation errors (even at a script's end) prevents script execution.
 

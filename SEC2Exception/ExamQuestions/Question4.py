@@ -23,6 +23,18 @@ class NewException(Exception):
 raise NewException("Spam")
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+# Answer (26-11): 1, 2 - - - - - - - Correct
+
+
+
+
+
+
+
+
+
+
+
 # Answer: 1, 2
 
 

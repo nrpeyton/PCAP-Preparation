@@ -16,10 +16,33 @@ f()
 """
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-#SyntaxError: invalid syntax
-#ArithmeticError
-#No Output
-#AssertionError
-#Attribute Error
+#1. SyntaxError: invalid syntax
+#2. ArithmeticError
+#3. No Output
+#4. AssertionError
+#5. Attribute Error
+
+# Answer (26-11): 2, 4, 5  - - - - - - - Correct (with research required):
+
+''' Learnings/Research: 
+Read question 24's learnings first!  In this question (25), the 'return' statement is not within the scope of the 'finally' branch so is not executed.
+Therefore, the output is simply the traceback showing the chained (i.e., all) exceptions.
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Answer: ArithmeticError, AssertionError and AttributeError will all be displayed in the console one after the other.

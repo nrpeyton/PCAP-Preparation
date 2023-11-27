@@ -21,8 +21,10 @@ e.foo()
 
 
 
-#i)Super Ham Super Spam     #WRONG
-#ii)Super Spam              #CORRECT!!!
-##iii)Super Ham             #WRONG
-#iv)No output               #WRONG
-#v)Super Spam Super Ham     #WRONG
+#i)Super Ham Super Spam
+#ii)Super Spam
+##iii)Super Ham
+#iv)No output
+#v)Super Spam Super Ham
+
+# Answer: 

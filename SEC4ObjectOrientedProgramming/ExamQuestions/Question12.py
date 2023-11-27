@@ -9,10 +9,10 @@ class Spam:
 
 spam = Spam()
 
-#i)print("hasattr(spam, 'ham') :", hasattr(spam, 'ham') )          #CORRECT!!
-#ii)print("spam.hasattr('ham') :", spam.hasattr('ham') )           #WRONG
-#iii)print("hasattr(pam, 'ham') :", hasattr(pam, 'ham') )          #CORRECT!!
-#iv)print("hasattr('spam', 'ham') :", hasattr('spam', 'ham') )     #WRONG
-#v)print("hasattr('Spam', 'ham') :", hasattr('Spam', 'ham') )      #WRONG
+#i)print("hasattr(spam, 'ham') :", hasattr(spam, 'ham') )
+#ii)print("spam.hasattr('ham') :", spam.hasattr('ham') )
+#iii)print("hasattr(pam, 'ham') :", hasattr(pam, 'ham') )
+#iv)print("hasattr('spam', 'ham') :", hasattr('spam', 'ham') )
+#v)print("hasattr('Spam', 'ham') :", hasattr('Spam', 'ham') )
 
-#RE: hasattr(objet, name), where the arguments are an OBJECT and a STRING
+# Answer: 

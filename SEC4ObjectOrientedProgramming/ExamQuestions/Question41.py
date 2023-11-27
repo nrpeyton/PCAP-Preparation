@@ -18,11 +18,43 @@ class Z(X, Y):
 
 x, y, z = X(), Y(), Z()
 
-# i)isinstance( (list, X, Y), z )           #WRONG; isinstance() arg 2 must be a type or tuple of types
-# ii)isinstance(z, X) and isinstance(z, Y)  #CORRECT!!
-# iii)isinstance(z, X, Y)                   #WRONG; isinstance expected 2 arguments, got 3
-# iv)isinstance(z, (list, X, Y) )           #CORRECT!!
-# v)isinstance( X, z) and isinstance(Y, z)  #WRONG; TypeError: isinstance() arg 2 must be a type or tuple of types
+# i)isinstance( (list, X, Y), z )
+# ii)isinstance(z, X) and isinstance(z, Y)
+# iii)isinstance(z, X, Y)
+# iv)isinstance(z, (list, X, Y) )
+# v)isinstance( X, z) and isinstance(Y, z)
+
+# Answer: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #*RE: isinstance(object, classinfo) is object  an instance of classinfo
 #ex. isinstance(z, X) and isinstance(z, Y) #True; since Z has argument of X, where x is instance of X(); same for Y

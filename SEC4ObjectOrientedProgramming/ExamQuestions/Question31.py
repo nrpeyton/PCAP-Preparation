@@ -27,11 +27,34 @@ c = C()
 
 print(c.spam(), c.ham())
 
-# i)B.spam A.spam                                            #WRONG
-# ii)B.spam B.spam                                           #CORRECT!!
-# iii)A.spam A.spam                                          #WRONG
-# iv)TypeError: Cannot create a consistent method resolution #WRONG
+# i)B.spam A.spam
+# ii)B.spam B.spam
+# iii)A.spam A.spam
+# iv)TypeError: Cannot create a consistent method resolution
+
+# Answer: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # *RE: Method Resolution Order -
-print("C.__mro__", C.__mro__)  # method resolution order for function execution
+# print("C.__mro__", C.__mro__)  # method resolution order for function execution
 #   C.__mro__ (<class '__main__.C'>, <class '__main__.B'>, <class '__main__.A'>, <class 'object'>)

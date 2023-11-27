@@ -18,8 +18,9 @@ h = Ham()
 print(s.v0(), h.v0())
 
 
-#i)2 2                                                  #WRONG
-#ii)AttributeError: 'Spam' object hs no attribute 'v0'  #WRONG
-#iii)1 1                                                #WRONG
-#iv)2 1                                                 #CORRECT!!
+#i)2 2
+#ii)AttributeError: 'Spam' object hs no attribute 'v0'
+#iii)1 1
+#iv)2 1
 
+# Answer: 

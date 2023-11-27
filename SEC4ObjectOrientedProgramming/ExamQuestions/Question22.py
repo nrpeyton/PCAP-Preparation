@@ -9,9 +9,11 @@ class X:
 
 ham = X.spam
 
-print(ham.__name__) #NOTE: __name__ refers to the nme of the class, function, method, description or generator instance;
-                    # thus the name = X.spam, where "spam" is the instance
-#i)X.spam           #WRONG
-#ii)ham             #WRONG
-#iii)SyntaxError    #WRONG
-#iv)Spam            #CORRECT!!
+print(ham.__name__) 
+
+#i)X.spam
+#ii)ham
+#iii)SyntaxError
+#iv)Spam
+
+# Answer: 
