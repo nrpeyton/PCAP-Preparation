@@ -16,14 +16,12 @@ class Spam(Ham, Eggs):
 
 s = Spam()
 
-#i)Eggs         #WRONG!
-#ii)Ham         #CORRECT!!
-#iii)No output  #WRONG!
-#iv)Ham Eggs    #WRONG!
+#1)Eggs
+#2)Ham
+#3)No output
+#4)Ham Eggs
 
-# Answer: 
-
-
+# Answer: Ham
 
 
 
@@ -42,9 +40,20 @@ s = Spam()
 
 
 
+"""
+One Class, One Spot:
+"Each class should show up only once in the whole tree."
+
+Subclasses First:
+"A class comes before its parent."
+
+Order Matters:
+"Keep the order of parents as they are written." If a class has two parents, list them in the same order as in the class definition.
+
+Respect the Line-Up:
+"If one parent is usually ahead of another in line, keep it that way." Imagine two lines merging; if people from line A usually go before line B, 
+keep that order.
+"""
 
 
-#*RE: MRO (Method Resolution Order) -
-#   -Class will execute the FIRST __init__() it finds in the class
-#ex
-print("Spam.__mro__: ", Spam.__mro__)   #(<class '__main__.Spam'>, <class '__main__.Ham'>, <class '__main__.Eggs'>, <class 'object'>)
+""" print("Spam.__mro__: ", Spam.__mro__) """  #(<class '__main__.Spam'>, <class '__main__.Ham'>, <class '__main__.Eggs'>, <class 'object'>)

@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Incorrect
 # - - - - - - - Practice Test 1: 4 Object Orientd Programming - - - - - - -
 """
 Question 35: Incorrect
@@ -11,11 +11,13 @@ class Spam:
     bar = foo
 
 s = Spam()
-s.bar('World')  #which is really s.foo(...) ...
+s.bar('World')
 
 #i)SyntaxError: invalid syntax
 #ii)NameError: name 'foo' is not defined
 #iii)No output
 #iv)Hello World
 
-# Answer: 
+# Answer: Hello World
+
+# Remember: The last line `s.bar('World')` is NOT trying to ASSIGN a string to bar, it is CALLING bar.

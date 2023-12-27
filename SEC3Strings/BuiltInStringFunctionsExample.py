@@ -3,7 +3,15 @@
 
 # 2)The String module
 
-print(f'\nord(\'a\') = ', ord('a'))
-print(f'ord(\'A\') = ', ord('A'))
-print(f'ord(\'!\') = ', ord('!'))
-print(f'ord(\'*\') = ', ord('*'))
+print('\nord(\'\\n\') = ', ord('\n')) # line feed
+print('ord(\' \') = ', ord(' ')) # white space
+
+print('\nord(\'!\') = ', ord('!')) # punctuation
+print('ord(\'/\') = ', ord('/'))
+
+print('\nord(\'0\') = ', ord('0'))
+print('ord(\'9\') = ', ord('9'))
+
+print('\nord(\'A\') = ', ord('A'))
+print('ord(\'a\') = ', ord('a'))
+

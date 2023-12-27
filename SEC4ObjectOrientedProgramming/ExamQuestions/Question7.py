@@ -15,7 +15,87 @@ print(F.remember2buy, E.remember2buy, G.remember2buy)
 # iv)Food Eggs GoodFood
 # v)No output
 
-# Answer: 
+# Answer: i)spam eggs eggs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+class type(object)
+
+With one argument, return the type of an object. The return value is a type object and generally the same object as returned by object.__class__.
+
+
+
+class type(name, bases, dict, **kwds)
+
+With three arguments, return a new type object. This is essentially a dynamic form of the class statement. The name string is the class name and 
+becomes the __name__ attribute. The bases tuple contains the base classes and becomes the __bases__ attribute; if empty, object, the ultimate base 
+of all classes, is added. The dict dictionary contains attribute and method definitions for the class body; it may be copied or wrapped before becoming 
+the __dict__ attribute. The following two statements create identical type objects:
+'''
+
+#1
+class X:
+    a = 1
+
+#2
+X = type('X', (), dict(a=1))
+
+
+
+
+
+F = type('Food', (), {'remember2buy': 'spam'}) # is the same as:
+
+
+class Food:
+    remember2buy = 'spam'
+
+F = Food
+
+
+'''
+Note that capital 'F' here is non-conventional, and `food_class = Food` may be preferred.
+
+Instance instantiation can also be done dynamically:
+'''
+food_instance = type('Food', (), {'remember2buy': 'spam'})()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

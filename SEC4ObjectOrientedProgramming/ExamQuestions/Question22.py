@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 1: 4 Object Orientd Programming - - - - - - -
 """
 Question 22: Incorrect
@@ -11,9 +11,9 @@ ham = X.spam
 
 print(ham.__name__) 
 
-#i)X.spam
-#ii)ham
-#iii)SyntaxError
-#iv)Spam
+#1)X.spam
+#2)ham
+#3)SyntaxError
+#4)Spam
 
-# Answer: 
+# Answer: Spam

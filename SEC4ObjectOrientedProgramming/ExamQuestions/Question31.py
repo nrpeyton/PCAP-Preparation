@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 1: 4 Object Orientd Programming - - - - - - -
 """
 Question 31: Incorrect
@@ -32,7 +32,25 @@ print(c.spam(), c.ham())
 # iii)A.spam A.spam
 # iv)TypeError: Cannot create a consistent method resolution
 
-# Answer: 
+# Answer: B.spam B.spam
+
+""" Bonus: The MRO originates from class C and remains unchanged through chained method calls like 'ham' → 'spam'. The context 'self' stays as a C instance, 
+preserving the MRO's inheritance sequence. """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

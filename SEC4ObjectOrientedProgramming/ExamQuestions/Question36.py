@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - CORRECT (but took too long)
 # - - - - - - - Practice Test 1: 4 Object Orientd Programming - - - - - - -
 """
 Question 36: Incorrect
@@ -20,9 +20,8 @@ class Foo(Bar):
 f = Foo()
 print(f.x, f.y)
 
-# i)super(Spam, self).__init__()
-# ii)None. All results in AttributeError:'Foo' object has no attribute 'x'
-# iii)Blank. code will work without replacement
-# iv)Bar.__init__ (self)
+# 1)None. All results in AttributeError:'Foo' object has no attribute 'x'
+# 2)Blank. code will work without replacement
+# 3)Bar.__init__ (self)
 
-# Answer: 
+# Answer: 3

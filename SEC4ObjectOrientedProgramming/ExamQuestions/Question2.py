@@ -15,22 +15,14 @@ class Spam:
 s = Spam()
 #<<< INSERT CODE HERE >>>
 
-#i)print(Spam.__name__)
-#ii)print(s.ham.__name__)
-#iii)print(s._Spam__eggs.__name__)
-#iv)print(s.eggs.__name__)
-#v)print(s._Spam__ham.__name__)
-#vi)print(s.__name__)
+#1)print(Spam.__name__)
+#2)print(s.ham.__name__)
+#3)print(s._Spam__eggs.__name__)
+#4)print(s.eggs.__name__)
+#5)print(s._Spam__ham.__name__)
+#6)print(s.__name__)
 
-# Answer: 
-
-
-
-
-
-
-
-
+# Answer: 1, 3, 4 - see ...__name__.py 
 
 
 

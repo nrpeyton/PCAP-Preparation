@@ -12,9 +12,15 @@ class Person:
 
 p = Person()
 
-#i) print("p.__dict__: ", p.__dict__)
-#ii) (print("vars(p): ", vars(p))
-#iii) print("vars(Person): ", vars(Person) )
-#iv) print("Person.__dict__:", Person.__dict__)
+#1) print("p.__dict__: ", p.__dict__)
+#2) (print("vars(p): ", vars(p))
+#3) print("vars(Person): ", vars(Person) )
+#4) print("Person.__dict__:", Person.__dict__)
 
-# Answer: 
+# Answer: 3, 4
+
+""" __dict__: Python has seperate dictionaries for objects and classes. The object.__dict__ typically only shows instance variables but not methods 
+(exception: unless a method is dynamically created), but Class.__dict__ shows both. 
+
+vars(object_OR_class): Returns the __dict__ attribute for a module, class, instance, or any other object with a __dict__ attribute.
+"""

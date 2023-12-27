@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 1: 4 Object Orientd Programming - - - - - - -
 """
 Question 47: Incorrect
@@ -23,4 +23,4 @@ print(s.v0(), h.v0())
 #iii)1 1
 #iv)2 1
 
-# Answer: 
+# Answer: 2 1

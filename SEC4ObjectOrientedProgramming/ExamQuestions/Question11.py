@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 1: 4 Object Orientd Programming - - - - - - -
 """
 Question 11: Incorrect
@@ -16,14 +16,18 @@ class Spam(Ham):
 s = Spam()
 
 
-#i)Ham Eggs
-#ii)Type Error: __init__() takes 1 positional argument but 0 were given
-#iii)Eggs
-#iv)No output
-#v)Ham
+#1)Ham Eggs
+#2)Type Error: __init__() takes 1 positional argument but 0 were given
+#3)Eggs
+#4)No output
+#5)Ham
 
-# Answer: 
+# Answer: 5)Ham
 
+"""
+Remember: __init__ is the only method that 'is' automatically executed on instantiation, whether inherited or not. Even the __str__ method is not 
+automatically executed; it is implicitly called by Python (internally) when printing an object or converting an object to a string.
+"""
 
 
 

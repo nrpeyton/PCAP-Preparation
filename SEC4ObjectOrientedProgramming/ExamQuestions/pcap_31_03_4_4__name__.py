@@ -3,6 +3,81 @@
 """ - - - - - - - properties: __name__- - - - - - - """
 #
 
+"""
+The __name__ attribute can retrieve the name of a class, function, method, or module.
+
+The first __name__ use retrieves a non-private method's name.
+The second __name__ use retrieves a class name.
+
+The third __name__ use uses a private method's mangled name to retreive its name. 
+The fourth __name__ use accesses the name of the private method '__content' via an alias 'content' created within the class. When 'content' is accessed, it refers directly to __content, so there's no need for name mangling.
+"""
+
+
+class Message:
+    __internalKey, externalKey = '__internalKey', 'externalKey'
+
+    def regularMethod(self):
+        pass
+
+    def __content(self):
+        pass
+
+    content = __content
+
+msgInstance = Message()
+#                                                                                   USAGE:
+print(msgInstance.regularMethod.__name__)                 # method                  object.method[.__name__]
+print(Message.__name__)                                   # class                   Class.__name__
+
+print(msgInstance._Message__content.__name__)             # method                  object._Class__method[.__name__]
+print(msgInstance.content.__name__)                       # method
+
+
+
+
+
+
+
+
+
+"""
+__name__:
+
+1. Referencing __name__ without prefixing a 'defined' entity (see below) always returns a string with the name of the currently running module or 
+script, at the top-level, this is '__main__'.
+
+2. A class, function, method, or module has a __name__ attribute, but NOT objects:
+In Python, functions, methods, and classes have a __name__ attribute because they are defined entities with specific names used for reference and 
+introspection. Regular objects, being instances of classes, lack a __name__ attribute as they are identified by their state and behavior rather than a
+static name, making such an attribute unnecessary for them.
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #ex. an identifier of the form __geek is replaced with _classname__geek, where classname is the current class name with
 # leading underscore(s) stripped; observe how the underscore works
 class Map:

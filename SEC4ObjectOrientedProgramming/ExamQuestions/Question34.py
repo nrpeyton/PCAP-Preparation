@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Incorrect (didn't think it would be that simple)!!
 # - - - - - - - Practice Test 1: 4 Object Orientd Programming - - - - - - -
 """
 Question 34: Incorrect
@@ -15,4 +15,4 @@ class C(A, A):
 #iii)SyntaxError: invalid syntax
 #iv)TypeError: duplicate base class A
 
-# Answer: 
+# Answer: TypeError: duplicate base class A !!

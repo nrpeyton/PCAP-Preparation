@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Incorrect
 # - - - - - - - Practice Test 1: 4 Object Orientd Programming - - - - - - -
 """
 Question 24: Incorrect
@@ -19,3 +19,5 @@ print(s.v1, s.v2)
 #ii)Invalid syntax
 #iii)AttributeError:'Spam' has no attribute 'v1'
 #iv)1 2
+
+# Answer: 3

@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Correct
 # - - - - - - - Practice Test 1: 4 Object Orientd Programming - - - - - - -
 """
 Question 41: Incorrect
@@ -18,18 +18,15 @@ class Z(X, Y):
 
 x, y, z = X(), Y(), Z()
 
-# i)isinstance( (list, X, Y), z )
-# ii)isinstance(z, X) and isinstance(z, Y)
-# iii)isinstance(z, X, Y)
-# iv)isinstance(z, (list, X, Y) )
-# v)isinstance( X, z) and isinstance(Y, z)
+isinstance( (list, X, Y), z )
+# 2)isinstance(z, X) and isinstance(z, Y)
+# 3)isinstance(z, X, Y)
+# 4)isinstance(z, (list, X, Y) )
+# 5)isinstance( X, z) and isinstance(Y, z)
 
-# Answer: 
+# Answer: 2, 4
 
-
-
-
-
+# Remember: isinstance(object, classinfo) arg 2 must be a type, a tuple of types, or a union.
 
 
 

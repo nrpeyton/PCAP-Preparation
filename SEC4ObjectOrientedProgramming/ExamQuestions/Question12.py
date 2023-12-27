@@ -9,10 +9,13 @@ class Spam:
 
 spam = Spam()
 
-#i)print("hasattr(spam, 'ham') :", hasattr(spam, 'ham') )
-#ii)print("spam.hasattr('ham') :", spam.hasattr('ham') )
-#iii)print("hasattr(pam, 'ham') :", hasattr(pam, 'ham') )
-#iv)print("hasattr('spam', 'ham') :", hasattr('spam', 'ham') )
-#v)print("hasattr('Spam', 'ham') :", hasattr('Spam', 'ham') )
+#1)print("hasattr(spam, 'ham') :", hasattr(spam, 'ham') )
+#2)print("spam.hasattr('ham') :", spam.hasattr('ham') )
+#3)print("hasattr(pam, 'ham') :", hasattr(pam, 'ham') )
+#4)print("hasattr('spam', 'ham') :", hasattr('spam', 'ham') )
+#5)print("hasattr('Spam', 'ham') :", hasattr('Spam', 'ham') )
 
-# Answer: 
+# Answer: 1
+
+""" Remember: hasattr(object_OR_class, 'attribute') checks if an object (or class) contains an attribute, but only the second argument is 
+(and must be) a string. """

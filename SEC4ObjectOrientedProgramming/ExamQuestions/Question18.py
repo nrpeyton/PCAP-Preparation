@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - Incorrect
 # - - - - - - - Practice Test 1: 4 Object Orientd Programming - - - - - - -
 """
 Question 18: Incorrect
@@ -22,10 +22,13 @@ MyClass.FOO = 300
 print(d.bar, d.FOO, e.bar, e.FOO)
 
 
-#i)['spam']100['ham']300
-#ii)['spam']300['ham']300
-#iii)['spam']100['ham']200
-#iv)['spam']300['ham']200
+#1)['spam']100['ham']300
+#2)['spam']300['ham']300
+#3)['spam']100['ham']200
+#4)['spam']300['ham']200
 
 
-# Answer: 
+# Answer: #4)['spam']300['ham']200
+
+# Learning: d.FOO did start off as `FOO = 100` on line 8, but never noticed it was modified on line 20!  
+# Remember Python searches the instance first then the class.

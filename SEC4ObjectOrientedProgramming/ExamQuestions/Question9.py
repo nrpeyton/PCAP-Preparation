@@ -1,4 +1,4 @@
-# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - -
+3# - - - - - - - UDEMY: PCAP CERTIFIED ASSOCIATE W/PYTHON PROGRAMMING CERTIFICATION- - - - - - - 2/3 Correct
 # - - - - - - - Practice Test 1: 4 Object Orientd Programming - - - - - - -
 """
 Question 9: Incorrect
@@ -20,20 +20,21 @@ s = Spam()
 
 #---INSERT CODE HERE---
 
-#i)print("s.__ham: ", s.__ham )
-#ii)print("s.eggs(): ", s.eggs() )
-#iii)print("s.__eggs(): ", s.__eggs() )
-#iv)print("s._Spam__ham: ", s._Spam__ham )
-#v)print("s._Spam__eggs(): ", s._Spam__eggs() )
+#1)print("s.__ham: ", s.__ham )
+#2)print("s.eggs(): ", s.eggs() )
+#3)print("s.__eggs(): ", s.__eggs() )
+#4)print("s._Spam__ham: ", s._Spam__ham )
+#5)print("s._Spam__eggs(): ", s._Spam__eggs() )
 
-# Answer: 
-
-
+# Answer: 2, 4, 5
 
 
 
 
+print("s.eggs(): ", s.eggs() )
 
+print("s._Spam__ham: ", s._Spam__ham )
+print("s._Spam__eggs(): ", s._Spam__eggs() )
 
 
 
