@@ -40,7 +40,7 @@ With one argument, return the type of an object. The return value is a type obje
 class type(name, bases, dict, **kwds)
 
 With three arguments, return a new type object. This is essentially a dynamic form of the class statement. The name string is the class name and 
-becomes the __name__ attribute. The bases tuple contains the base classes and becomes the __bases__ attribute; if empty, object, the ultimate base 
+becomes the __name__ attribute. The bases tuple contains the direct base classes and becomes the __bases__ attribute; if empty, object, the ultimate base 
 of all classes, is added. The dict dictionary contains attribute and method definitions for the class body; it may be copied or wrapped before becoming 
 the __dict__ attribute. The following two statements create identical type objects:
 '''

@@ -14,6 +14,79 @@ print(evens_squared)
 
 
 
+
+"""
+Challenge: Reverse Strings
+Given a list of strings, use list comprehension to create a new list containing the reverse of each string. For example, from ["abc", "def", "ghi"],
+the result should be ["cba", "fed", "ihg"].
+"""
+
+ls = ['abc', 'def', 'ghi']
+
+
+lcompr = [e[::-1] for e in ls] # [ <expression>  <for e in iterable> ]
+print(lcompr)
+
+# The ONLY iterables list.methods() can be used on are lists.  For strings, we can use slices.
+# Slice notation is "syntactic sugar" for creating and using slice objects, which can be used with: slice(0:11:2); list.__getitem__(slice).  We could even override __getitem__ to change slice notation's behaviour.
+
+
+
+"""
+Challenge: Square of Odd Indices
+Given a list of numbers, use list comprehension to create a list containing the square of each number that is in an odd index in the original list. 
+For instance, with [1, 2, 3, 4, 5], the result should be [4, 16] (squares of 2 and 4, which are at indices 1 and 3).
+"""
+
+l = [1, 2, 3, 4, 5]
+nl = [e**2 for e in l if l.index(e) % 2 == 1]
+print(nl)
+
+
+nl = [e**2 for i, e in enumerate(l) if i % 2 == 1]
+
+
+
+
+"""
+Challenge: Divisible by Five
+Create a list using list comprehension that contains all numbers from 1 to 100 that are divisible by 5.
+"""
+
+l3 = [e for e in range(1, 101) if e % 5 == 0]
+print(l3)
+
+
+
+
+"""
+Challenge: Uppercase Words
+Given a sentence, use list comprehension to create a list of words in the sentence that are in uppercase. For example, from "Hello World, I am LEARNING Python", the result should be ["HELLO", "WORLD", "I", "AM", "LEARNING"].
+"""
+st = "Hello World, I am LEARNING Python"
+l4 = [word for word in st.split() if word.isupper() == True]
+print(l4)
+
+
+
+
+
+"""
+Challenge: Extract Digits
+Given a string containing a mix of letters and numbers, use list comprehension to create a list of all numeric characters in the string. For instance, with "Python 3.8.5", the result should be ['3', '8', '5'].
+"""
+
+st = "Python 3.8.5"
+l5 = [c for c in st if c.isnumeric()]
+print(l5)
+
+
+
+
+
+
+
+
 """
 Challenge: Flatten the matrix into a simple list
 """

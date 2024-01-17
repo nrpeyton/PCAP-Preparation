@@ -1,4 +1,4 @@
-#                                                     _ _ s t r i n g _ _                                                                                                                           
+#                                                     _ _ s t r i n g _ _                                                                                            # type: ignore # pylint: disable=all                                 
 class A:
     def fun(self):
         pass
@@ -17,7 +17,7 @@ print(a, a.__str__())   # both call object.__string__()     <__main__.A object a
 #                                                     _ _ n a m e _ _    
 
 """ __name__ can supply the name of a class, function, method, or module, but NOT an object or variable.  Think DEFINED (def) only. """
-print(__name__) # module name
+print(__name__) # Output: module name, e.g., __main__
 
 class A:
     def __init__(self):
@@ -42,7 +42,9 @@ print(a._A__prvtMthd.__name__       ,     A._A__prvtMthd.__name__) #            
 
 """ __module__ can supply the module name (i.e., main.py) that contains the entity your querying.  Use on functions, classes, methods and objects, but NOT variables """
 
-print(__module__) # Output: __main__
+class ExampleClass:
+    pass
+print(ExampleClass.__module__) # Output: __main__
 
 
 
@@ -65,6 +67,44 @@ print(vars(a))                                          {'iv': 'iv', '_A__v': 'v
 
 a.__vi = 'vi'
 print(a.__dict__)                                       {'iv': 'iv', '_A__v': 'v', '__vi': 'vi'}
+
+
+
+
+
+
+
+
+
+#                                                   _ _ b a s e s _ _
+
+# Special class attribute:  Classname.__bases__
+class Chordata:
+    pass
+
+class Reptiles(Chordata):
+    pass
+
+class Snakes(Reptiles):
+    pass
+
+class Python(Snakes, Reptiles):
+    pass
+
+print(Python.__bases__)  # Output: (<class '__main__.Snakes'>, <class '__main__.Reptiles'>)
+
+'''
+Output:
+- A tuple containing the direct base classes (direct superclasses) of the 'Python' class.
+- In this case, the 'Python' class inherits from the 'Snakes' class.
+- Outputs as a tuple, even if there is only one base class.
+'''
+
+print(Python.__bases__[0].__name__) # Output: Snakes
+
+
+
+
 
 
 
